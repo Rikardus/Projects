@@ -10,14 +10,14 @@ int main(){
     if(scanf("%d", &length) != 1 || length < 0){
 	puts("Enter a valid number");
 	while(getchar() != '\n');
-	return 0;
+	return 1;
     }
     
     printf("What is the width of the room in feet? ");
     if(scanf("%d", &width) != 1 || width < 0){
 	puts("Enter a valid number");
 	while(getchar() != '\n');
-	return 0;
+	return 1;
     }
 
     squareFeet = length * width;
