@@ -5,7 +5,7 @@
 
 int main()
 {
-    float amount = 0, tax = 0, total = 0;
+    float amount = 0, total = 0;
     char state[20];
 
     printf("What is the order amount? ");
